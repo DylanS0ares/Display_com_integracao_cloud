@@ -14,7 +14,7 @@ gauth.LocalWebserverAuth()  # Abrirá uma página da web para autenticação
 drive = GoogleDrive(gauth)
 
 # ID do diretório no Google Drive contendo suas imagens
-DRIVE_DIRECTORY_ID = "12LzMsHQaE78vkVciPWBIWtdLLOx8pNot"
+DRIVE_DIRECTORY_ID = "### adicione aqui seu ID diretório " # Tirei o anterior para não entrarem no meu drive xD
 
 # Função para baixar as imagens do Google Drive
 def download_images_from_drive(directory_id):
